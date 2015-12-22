@@ -47,7 +47,7 @@ public class Main {
             digest = digest + "END";
 
             /*
-           String d = http.sendGet("https://api.trello.com/1/lists/5624150af238f859bd31c184/cards?key=8ae99e0ea7b85ca2789086065afa508c&token=a092a3e6ff867566bdb47e0225767f7a317bb83c43e0a3f1b0c18526f77395e9");
+           String d = http.sendGet("https://api.trello.com/1/lists/5624150af238f859bd31c184/cards");
 
             if(d.contains(digest)){
                  auth = true;
